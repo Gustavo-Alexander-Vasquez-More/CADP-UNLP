@@ -4,8 +4,10 @@ program ejercicio1;
 var 
   i, suma, num : integer;
 begin
- suma:=0;
- for i:=1 to 10 do
+ Writeln('Escriba un numero: ');
+ Readln(num);
+ suma:=num;
+ for i:=1 to 2 do
  begin
    Writeln('Escriba un numero: ');
    Readln(num);
